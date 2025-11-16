@@ -1,15 +1,13 @@
-import Header from './components/Header';
-import UserProfile from './components/UserProfile';
-import MainContent from './components/MainContent';
-import Footer from './components/Footer';
+import React from 'react';
+import Counter from './components/Counter';
 
-export default function App() {
+function App() {
   return (
-    <div>
-      <Header />
-      <UserProfile name="Ebenezer Adekanmi" age={25} />
-      <MainContent />
-      <Footer />
+    <div className="App">
+      <Counter />
     </div>
   );
 }
+
+export default App;
+
