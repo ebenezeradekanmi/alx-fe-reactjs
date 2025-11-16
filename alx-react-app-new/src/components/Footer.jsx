@@ -1,7 +1,20 @@
-export default function Footer() {
+// src/components/Footer.jsx
+import React from "react";
+
+const Footer = () => {
   return (
-    <footer style={{ backgroundColor: '#333', color: 'white', textAlign: 'center', padding: '1rem' }}>
-      <p>© 2025 My App. All rights reserved.</p>
+    <footer
+      style={{
+        backgroundColor: "#282c34",
+        color: "white",
+        textAlign: "center",
+        padding: "15px",
+        marginTop: "20px",
+      }}
+    >
+      <p>My App Footer &copy; 2025</p>
     </footer>
   );
-}
+};
+
+export default Footer;

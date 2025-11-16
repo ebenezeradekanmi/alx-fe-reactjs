@@ -9,7 +9,7 @@ const Header = () => {
         textAlign: "center",
       }}
     >
-      <h1>Welcome to My App</h1>
+      <h1>My App Header</h1>
     </header>
   );
 };

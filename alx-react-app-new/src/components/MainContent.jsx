@@ -1,8 +1,20 @@
-export default function MainContent() {
+// src/components/MainContent.jsx
+import React from "react";
+
+const MainContent = () => {
   return (
-    <main style={{ padding: '1rem', backgroundColor: '#f0f0f0', minHeight: '60vh', textAlign: 'center' }}>
-      <h2>Main Content Area</h2>
-      <p>This is where your main content goes.</p>
+    <main
+      style={{
+        backgroundColor: "#fff",
+        color: "#000",
+        textAlign: "center",
+        padding: "40px",
+        minHeight: "200px",
+      }}
+    >
+      <p>Welcome to the main content area!</p>
     </main>
   );
-}
+};
+
+export default MainContent;
