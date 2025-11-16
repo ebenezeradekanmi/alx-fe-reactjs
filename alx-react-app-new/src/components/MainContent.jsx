@@ -6,13 +6,13 @@ const MainContent = () => {
     <main
       style={{
         backgroundColor: "#fff",
-        color: "#000",
+        color: "#333",
         textAlign: "center",
-        padding: "40px",
-        minHeight: "200px",
+        padding: "20px",
       }}
     >
-      <p>Welcome to the main content area!</p>
+      <h1>Welcome to My Travel Blog</h1>
+      <p>I love to visit New York, Paris, and Tokyo.</p>
     </main>
   );
 };
